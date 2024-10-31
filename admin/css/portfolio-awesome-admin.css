@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#menu-posts-portfolio-awesome ul {
+    display: grid;
+	flex-direction: row;
+}
+
+#menu-posts-portfolio-awesome ul li:nth-child(1) {
+	order: 1;
+}
+
+#menu-posts-portfolio-awesome ul li:nth-child(2) {
+	order: 2;
+}
+#menu-posts-portfolio-awesome ul li:nth-child(3) {
+	order: 4;
+}
+#menu-posts-portfolio-awesome ul li:nth-child(4) {
+	order: 5;
+}
+#menu-posts-portfolio-awesome ul li:nth-child(5) {
+	order: 3;
+}
+#menu-posts-portfolio-awesome ul li:nth-child(6) {
+	order: 6;
+}
+
+.select-image-layout.cf-radio-image .cf-radio__list-item {
+	flex: 0 0 auto;
+}
+
+.inside .select-image-layout .cf-radio__input:checked~.cf-radio__label .cf-radio-image__image, .inside .select-image-layout .cf-radio__input:focus~.cf-radio__label .cf-radio-image__image {
+	outline: none;
+	opacity: 1;
+	box-shadow: none;
+}
+
+.inside .select-image-layout .cf-radio__label .cf-radio-image__image{
+	opacity: 0.5;
+}
